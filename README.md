@@ -11,7 +11,7 @@ npm i @cam0studios/vector-library @cam0studios/physics
 
 ## Usage
 ```js
-import { Circle, physics, draw } from "path/to/physics-lib";
+import { Circle, physics, draw } from "@cam0studios/physics";
 import Vector from "@cam0studios/vector-library";
 
 // example circle rigidbody
