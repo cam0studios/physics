@@ -1,0 +1,18 @@
+{
+  "name": "@cam0studios/physics",
+  "module": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "esbuild dev.js --serve --servedir=./ --bundle --sourcemap --watch --outdir=./dist/"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "esbuild": "^0.25.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@cam0studios/vector-library": "^1.1.2"
+  }
+}
